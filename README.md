@@ -1,6 +1,6 @@
-# Hi, I'm Abdullah Hannan Razalli 👋
+# Hi, I'm Hannan Razalli 👋
 
-**Design Engineer -> Data Engineer** | 8+ Years Design Engineering Background | Based in Kuala Lumpur, Malaysia  
+**Design Engineer → Data Engineer** | 8+ Years Design Engineering Background | Based in Kuala Lumpur, Malaysia  
 *Open to Data Engineering & Analytics Engineering Roles*
 
 ---
