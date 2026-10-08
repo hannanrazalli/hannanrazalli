@@ -15,7 +15,9 @@ I went serverless (S3, Glue, Athena) because the data is small and a warehouse w
 ### Toolbox
 
 **Use regularly:** Python, SQL (PostgreSQL, MySQL), Airflow, dbt Core, BigQuery, AWS (S3, Glue, Athena, IAM), Docker, Git, GitHub Actions
+
 **Patterns:** Medallion architecture, incremental loads and MERGE, SCD Type 2, late-arriving data
+
 **Still learning:** PySpark and Azure Databricks. Guided projects only so far, nothing production-like.
 
 AWS re/Start completed. Cloud Practitioner next.
