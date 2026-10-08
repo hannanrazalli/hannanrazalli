@@ -29,7 +29,7 @@ Transitioning into DE self-taught means my focus is entirely on demonstrable eng
 
 ### 📊 Featured Project
 
-#### 🚀 [`assets-correlation-pipeline`]([https://github.com/YOUR-USERNAME/assets-correlation-pipeline](https://github.com/hannanrazalli/assets-correlation-pipeline))
+#### 🚀 [`assets-correlation-pipeline`](https://github.com/hannanrazalli/assets-correlation-pipeline)
 > **A daily batch pipeline tracking correlation across traditional & crypto assets to evaluate portfolio diversification.**
 
 * **The Problem:** Are multi-asset holdings genuinely diversified, or do market shocks cause asset classes to lock step?
