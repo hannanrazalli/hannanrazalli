@@ -6,7 +6,7 @@
 ---
 
 ### 💡 About Me
-I bring 8 years of complex design engineering in the rolling stock industry into **Data Engineering**. 
+I bring 8 years of design engineering in the rolling stock industry into **Data Engineering**. 
 
 Transitioning into DE self-taught means my focus is entirely on demonstrable engineering standards:
 - **Production-minded pipelines** built with clean code, modular design, and robust orchestration.
@@ -55,8 +55,8 @@ Transitioning into DE self-taught means my focus is entirely on demonstrable eng
 ---
 
 ### 📬 Connect with Me
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://linkedin.com/in/YOUR-LINKEDIN)
-[![Email](https://img.shields.io/badge/Email-D14836?style=flat&logo=gmail&logoColor=white)](mailto:YOUR-EMAIL@email.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white)]([https://linkedin.com/in/YOUR-LINKEDIN](https://www.linkedin.com/in/abdullah-hannan-razalli-085aa3141/))
+[![Email](https://img.shields.io/badge/Email-D14836?style=flat&logo=gmail&logoColor=white)](mailto:a.hannanrazalli@gmail.com)
 <!-- 
 [![Portfolio](https://img.shields.io/badge/Portfolio-00C4CC?style=flat&logo=canva&logoColor=white)](https://hannan-da-porfolio.my.canva.site/de-portfolio-hannan-razalli)
 -->
