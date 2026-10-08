@@ -1,48 +1,62 @@
-# Abdullah Hannan Razalli
+# Hi, I'm Abdullah Hannan Razalli 👋
 
-Aspiring Data Engineer · Kuala Lumpur, Malaysia · Open to work
-
-I'm a design engineer with eight years in rolling stock, moving into data engineering. The move is self-taught and happens outside my day job, so I focus on building things I can show: pipelines that run, tests that catch problems, and decisions I can explain.
-
----
-
-## Technical skills
-
-- **Languages:** Python, SQL (PostgreSQL, MySQL)
-- **Orchestration and transformation:** Apache Airflow (Astronomer), dbt Core
-- **Cloud and storage:** AWS (S3, Glue, Athena, IAM), Google BigQuery
-- **DevOps:** Docker, Git, GitHub Actions
-- **Data modelling:** Medallion architecture, incremental loads and MERGE, SCD Type 2, late-arriving data
-- **Learning:** PySpark and Azure Databricks (guided projects only, nothing production-like yet)
+**Design Engineer -> Data Engineer** | 8+ Years Design Engineering Background | Based in Kuala Lumpur, Malaysia  
+*Open to Data Engineering & Analytics Engineering Roles*
 
 ---
 
-## Featured project
+### 💡 About Me
+I bring 8 years of complex design engineering in the rolling stock industry into **Data Engineering**. 
 
-### [assets-correlation-pipeline](https://github.com/hannanrazalli/assets-correlation-pipeline)
-
-A daily batch pipeline that tracks the KLCI, S&P 500, Bitcoin and gold (GLD) and calculates a 30-day rolling correlation between them. It answers one question: if you hold a mix of these assets, do they really move in different directions, or does it only feel diversified?
-
-- Data from January 2021 to present, 6,409 rows in the fact table
-- 20+ data quality checks, about 5 minutes per full run
-- S3, Glue (crawler and Data Catalog), Athena, Airflow (Astronomer), GitHub Actions
-
-**Design choices:** I went serverless because the data is small and a warehouse would sit idle. Ingestion is batch because the data lands once a day. Each asset class has its own S3 folder, which keeps Hive partitioning simple.
+Transitioning into DE self-taught means my focus is entirely on demonstrable engineering standards:
+- **Production-minded pipelines** built with clean code, modular design, and robust orchestration.
+- **Data quality guardrails** using tests that catch schema drift and nulls before downstream consumption.
+- **Pragmatic architecture decisions** driven by cost, performance, and scale rather than hype.
 
 ---
 
-## Credentials
+### 🛠️ Technical Stack
 
-- AWS re/Start (completed)
-- AWS Certified Cloud Practitioner (next)
-- Graduate Engineer, Board of Engineers Malaysia (BEM)
+| Category | Tools & Technologies |
+| :--- | :--- |
+| **Languages** | `Python`, `SQL (PostgreSQL, MySQL)` |
+| **Orchestration & Modeling** | `Apache Airflow (Astronomer)`, `dbt Core`, `Medallion Architecture`, `SCD Type 2`, `Incremental MERGE` |
+| **Cloud & Storage** | `AWS (S3, Glue, Athena, IAM)`, `Google BigQuery` |
+| **DevOps & CI/CD** | `Docker`, `Git`, `GitHub Actions` |
+| **Currently Exploring** | `PySpark`, `Azure Databricks` *(Guided implementations)* |
 
 ---
 
-## Contact
+### 📊 Featured Project
 
-[LinkedIn](https://www.linkedin.com/in/abdullah-hannan-razalli-085aa3141/) · [Email](mailto:a.hannanrazalli@gmail.com)
+#### 🚀 [`assets-correlation-pipeline`](https://github.com/YOUR-USERNAME/assets-correlation-pipeline)
+> **A daily batch pipeline tracking correlation across traditional & crypto assets to evaluate portfolio diversification.**
 
-<!-- Add back once the portfolio is finished:
- · [Portfolio](https://hannan-da-porfolio.my.canva.site/de-portfolio-hannan-razalli)
+* **The Problem:** Are multi-asset holdings genuinely diversified, or do market shocks cause asset classes to lock step?
+* **The Solution:** Automates daily ingestion of asset prices (Jan 2021–Present) across KLCI, S&P 500, Bitcoin, and Gold (GLD) to calculate a rolling 30-day correlation matrix.
+* **Scale & Reliability:** Processes a 6,400+ row fact table with **20+ automated data quality checks** per run (~5 min total execution time).
+* **Tech Stack:** `AWS S3` · `AWS Glue` · `AWS Athena` · `Apache Airflow` · `GitHub Actions`
+
+<details>
+<summary><b>📐 Architectural & Design Choices (Click to expand)</b></summary>
+
+* **Serverless First:** Chose AWS Athena + S3 over a warehouse (e.g., Redshift/Snowflake) to eliminate idle cluster costs for low-frequency daily batches.
+* **Batch Ingestion:** Financial markets settle daily; streaming infrastructure was deliberately omitted to minimize operational cost and complexity.
+* **Hive Partitioning:** Structured S3 prefix paths per asset class to enable cost-effective partition pruning during Athena queries.
+</details>
+
+---
+
+### 📜 Credentials & Professional Registrations
+* 🎓 **Graduate Engineer** – Board of Engineers Malaysia (BEM)
+* ☁️ **AWS re/Start Graduate** – Amazon Web Services
+* ⏳ *In Progress:* AWS Certified Cloud Practitioner
+
+---
+
+### 📬 Connect with Me
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://linkedin.com/in/YOUR-LINKEDIN)
+[![Email](https://img.shields.io/badge/Email-D14836?style=flat&logo=gmail&logoColor=white)](mailto:YOUR-EMAIL@email.com)
+<!-- 
+[![Portfolio](https://img.shields.io/badge/Portfolio-00C4CC?style=flat&logo=canva&logoColor=white)](https://hannan-da-porfolio.my.canva.site/de-portfolio-hannan-razalli)
 -->
