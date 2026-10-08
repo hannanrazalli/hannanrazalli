@@ -1,28 +1,56 @@
-## Hi, I'm Hannan
+# Abdullah Hannan Razalli
 
-Design engineer in rolling stock, eight years in, moving into data engineering. None of that move has come through my day job. I've taught myself, and the project below is where I'm trying to prove I can do the work properly.
+**Aspiring Data Engineer** · Kuala Lumpur, Malaysia · Open to work
 
-Based in Kuala Lumpur. Open to data engineering roles and adjacent ones.
+I'm a design engineer with eight years in rolling stock, moving into data engineering. The move is self-taught and happening outside my day job, so I focus on building things I can show: pipelines that run, tests that catch problems, and decisions I can explain.
 
-### Currently building
+<br>
 
-**[assets-correlation-pipeline](https://github.com/hannanrazalli/assets-correlation-pipeline)**: a daily batch pipeline that tracks the KLCI, S&P 500, Bitcoin and gold (GLD) and computes a 30-day rolling correlation between them. The question it answers: if you hold a mix of these, do they actually move in different directions, or does it just feel diversified?
+## Featured project
 
-History from January 2021, 6,409 rows in the fact table, 20+ data quality checks, about five minutes per run.
+### [assets-correlation-pipeline](https://github.com/hannanrazalli/assets-correlation-pipeline)
 
-I went serverless (S3, Glue, Athena) because the data is small and a warehouse would sit idle. It's batch because the data lands once a day. Stocks, gold and Bitcoin each get their own S3 folder, because the data isn't shaped the same and it keeps the crawler from mixing schemas. Airflow (Astronomer) orchestrates it and GitHub Actions handles CI.
+A daily batch pipeline that tracks the KLCI, S&P 500, Bitcoin and gold (GLD) and calculates a 30-day rolling correlation between them. It answers one question: if you hold a mix of these assets, do they really move in different directions, or does it only feel diversified?
 
-### Toolbox
+| | |
+|---|---|
+| **History** | January 2021 to present |
+| **Fact table** | 6,409 rows |
+| **Data quality checks** | 20+ |
+| **Run time** | About 5 minutes |
+| **Stack** | S3, Glue (crawler, Data Catalog), Athena, Airflow (Astronomer), GitHub Actions |
 
-**Use regularly:** Python, SQL (PostgreSQL, MySQL), Airflow, dbt Core, BigQuery, AWS (S3, Glue, Athena, IAM), Docker, Git, GitHub Actions
+**Why I built it this way**
 
-**Patterns:** Medallion architecture, incremental loads and MERGE, SCD Type 2, late-arriving data
+- **Serverless (S3, Glue, Athena):** the data is small, so a warehouse would sit idle and cost more for no benefit.
+- **Batch ingestion:** the data lands once a day, so streaming would only add complexity.
+- **Separate S3 folders per asset class:** the data isn't shaped the same, and separating it keeps the crawler from mixing schemas and makes Hive partitioning simpler.
 
-**Still learning:** PySpark and Azure Databricks. Guided projects only so far, nothing production-like.
+<br>
 
-AWS re/Start completed. Cloud Practitioner next.
+## Skills
 
-Outside work I do 3D design and printing.
+| | |
+|---|---|
+| **Use regularly** | Python, SQL (PostgreSQL, MySQL), Airflow, dbt Core, BigQuery, AWS (S3, Glue, Athena, IAM), Docker, Git, GitHub Actions |
+| **Patterns** | Medallion architecture, incremental loads and MERGE, SCD Type 2, late-arriving data |
+| **Learning** | PySpark, Azure Databricks (guided projects only, nothing production-like yet) |
+
+<br>
+
+## Credentials
+
+AWS re/Start (completed) · AWS Certified Cloud Practitioner (next) · Graduate Engineer, BEM
+
+<br>
+
+## Beyond work
+
+I design and 3D print things in my spare time.
+
+<br>
+
+## Get in touch
 
 [LinkedIn](https://www.linkedin.com/in/abdullah-hannan-razalli-085aa3141/) · [Email](mailto:a.hannanrazalli@gmail.com)
 
