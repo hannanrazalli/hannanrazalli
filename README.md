@@ -2,7 +2,7 @@
 
 **Data Engineering & Analytics Engineering · Kuala Lumpur, Malaysia**
 
-Design engineer transitioning into data engineering, bringing 8+ years of experience in the rolling stock industry. I build data pipelines with Python, SQL, Airflow, dbt and AWS. Open to Data Engineering and Analytics Engineering roles.
+Design engineer transitioning into data engineering, bringing 8+ years of experience in the manufacturing industry. I build data pipelines with Python, SQL, Airflow, dbt and AWS. Open to Data Engineering and Analytics Engineering roles.
 
 [LinkedIn](https://www.linkedin.com/in/abdullah-hannan-razalli-085aa3141/) · [Email](mailto:a.hannanrazalli@gmail.com)
 
@@ -34,4 +34,4 @@ Both repositories document architecture, setup, pipeline behaviour and analytica
 
 ## Background
 
-8+ years in rolling stock design engineering · Graduate Engineer, Board of Engineers Malaysia (BEM) · AWS re/Start graduate
+8+ years in design engineering · Graduate Engineer, Board of Engineers Malaysia (BEM) · AWS re/Start graduate
