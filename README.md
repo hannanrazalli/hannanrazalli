@@ -2,7 +2,7 @@
 
 **Data Engineering & Analytics Engineering · Kuala Lumpur, Malaysia**
 
-Design engineer transitioning into data engineering, bringing 8+ years of experience in the manufacturing industry. I build data pipelines with Python, SQL, Airflow, dbt and AWS. Open to Data Engineering and Analytics Engineering roles.
+Design engineer transitioning into data engineering, with experience in rail design and precision manufacturing. I build independent data pipeline projects using Python, SQL, Airflow, dbt and AWS. Open to Data Engineering and Analytics Engineering opportunities.
 
 [LinkedIn](https://www.linkedin.com/in/abdullah-hannan-razalli-085aa3141/) · [Email](mailto:a.hannanrazalli@gmail.com)
 
@@ -10,7 +10,7 @@ Design engineer transitioning into data engineering, bringing 8+ years of experi
 
 ### Multi-Asset Correlation Pipeline
 
-Two implementations of the same daily batch pipeline: ingest equity, Bitcoin, gold ETF and FX data, convert prices to MYR, and compare asset returns across 30 shared observations.
+Two implementations of the same daily batch pipeline for equity indices, Bitcoin, a gold ETF and USD/MYR exchange rates, with SQL models for returns and rolling correlations over 30 shared observations.
 
 #### [Athena implementation →](https://github.com/hannanrazalli/assets-correlation-pipeline)
 
@@ -28,10 +28,10 @@ Both repositories document architecture, setup, pipeline behaviour and analytica
 
 ## Core stack
 
-**Languages:** Python · SQL (PostgreSQL, MySQL, Redshift)  
-**Data platforms:** Airflow · dbt Core · AWS S3, Glue, Athena, Redshift · BigQuery  
+**Languages:** Python · SQL  
+**Data platforms:** Airflow · dbt Core · AWS S3, Glue, Athena, Redshift  
 **Development & deployment:** Docker · Astro CLI · Git · GitHub Actions · AWS EC2
 
 ## Background
 
-8+ years in design engineering · Graduate Engineer, Board of Engineers Malaysia (BEM) · AWS re/Start graduate
+Rail design and precision manufacturing · Graduate Engineer, Board of Engineers Malaysia (BEM) · AWS re/Start Program
