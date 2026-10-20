@@ -16,7 +16,7 @@ Two implementations of the same daily batch pipeline for equity indices, Bitcoin
 
 - **Pipeline:** Python → S3 → Glue crawlers and Data Catalog → dbt on Athena, orchestrated with Airflow.
 - **Modeling:** Incremental Apache Iceberg fact table with MERGE, plus returns and correlation views.
-- **Engineering:** 32 configured dbt tests; GitHub Actions for linting, DAG import checks, dbt parsing and EC2 deployment. Airflow runs through Astro and Docker.
+- **Engineering:** 36 configured dbt tests; GitHub Actions for linting, DAG import checks, dbt parsing and EC2 deployment. Airflow runs through Astro and Docker.
 
 #### [Redshift implementation →](https://github.com/hannanrazalli/assets-correlation-pipeline-redshift)
 
@@ -31,7 +31,3 @@ Both repositories document architecture, setup, pipeline behaviour and analytica
 **Languages:** Python · SQL  
 **Data platforms:** Airflow · dbt Core · AWS S3, Glue, Athena, Redshift  
 **Development & deployment:** Docker · Astro CLI · Git · GitHub Actions · AWS EC2
-
-## Background
-
-Rail design and precision manufacturing · Graduate Engineer, Board of Engineers Malaysia (BEM) · AWS re/Start Program
