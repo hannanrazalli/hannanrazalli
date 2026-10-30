@@ -1,11 +1,5 @@
 # Hannan Razalli
 
-**Data Engineering & Analytics Engineering · Kuala Lumpur, Malaysia**
-
-Design engineer transitioning into data engineering, with experience in rail design and precision manufacturing. I build independent data pipeline projects using Python, SQL, Airflow, dbt and AWS. Open to Data Engineering and Analytics Engineering opportunities.
-
-[LinkedIn](https://www.linkedin.com/in/abdullah-hannan-razalli-085aa3141/) · [Email](mailto:a.hannanrazalli@gmail.com)
-
 ## Featured projects
 
 ### Multi-Asset Correlation Pipeline
