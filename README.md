@@ -1,5 +1,3 @@
-# Hannan Razalli
-
 ## Featured projects
 
 ### Multi-Asset Correlation Pipeline
